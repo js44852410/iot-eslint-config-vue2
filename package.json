@@ -1,5 +1,5 @@
 {
-  "name": "@iot/vue2eslintconfig",
+  "name": "@iot/vue2-eslintconfig",
   "version": "1.0.4",
   "description": "vue2 IoT eslint 规范",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "js44852410@163.com",
+  "author": "js44852410",
   "license": "ISC",
   "private": false,
   "repository": {
