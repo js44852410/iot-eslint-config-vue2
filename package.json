@@ -1,5 +1,5 @@
 {
-  "name": "@iot/vue2-eslintconfig",
+  "name": "@iot/vue2-lint-reconfig",
   "version": "1.0.4",
   "description": "vue2 IoT eslint 规范",
   "main": "index.js",
