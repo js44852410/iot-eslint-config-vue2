@@ -1,6 +1,6 @@
 {
   "name": "iot-vue2-eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "vue2 IoT eslint 规范",
   "main": "index.js",
   "scripts": {
