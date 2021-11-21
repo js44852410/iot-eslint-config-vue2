@@ -1,5 +1,5 @@
 {
-  "name": "@iot/vue2-lint-asdfasdfasdfasdf",
+  "name": "@iot/vue2-eslint-config",
   "version": "1.0.5",
   "description": "vue2 IoT eslint 规范",
   "main": "index.js",
