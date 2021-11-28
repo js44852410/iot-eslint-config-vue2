@@ -67,7 +67,7 @@ module.exports = {
     'no-unreachable-loop': 'error',
 
     // 禁止重复导入
-    'import/no-duplicates': 'error',
+    // 'import/no-duplicates': 'error',
 
     // 禁止不必要地使用计算属性键
     'no-useless-computed-key': 'warn',
