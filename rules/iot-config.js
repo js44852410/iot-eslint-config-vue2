@@ -82,7 +82,7 @@ module.exports = {
     'multiline-comment-style': 'error',
 
     // 在三元表达式的操作数之间禁止换行
-    'multiline-ternary': 'error',
+    'multiline-ternary': ["error", "always"],
 
     // 禁止否定条件
     'no-negated-condition': 'error',
