@@ -16,10 +16,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-
-    // 使用window版回车
-    'linebreak-style': ['error', 'window'],
-
     // 禁止对函数参数再赋值
     'no-param-reassign': 'off',
 
