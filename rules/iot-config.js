@@ -24,9 +24,6 @@ module.exports = {
     // 不允许在顶级脚本作用域中声明var并命名function声明
     'no-implicit-globals': 'error',
 
-    // 标记this类或类类对象之外的关键字的用法
-    'no-invalid-this': 'error',
-
     // 禁止使用new不将结果对象分配给变量的关键字的构造函数调用
     'no-new': 'warn',
 
@@ -66,9 +63,6 @@ module.exports = {
     // 禁止循环体只允许一次迭代
     'no-unreachable-loop': 'error',
 
-    // 禁止重复导入
-    // 'import/no-duplicates': 'error',
-
     // 禁止不必要地使用计算属性键
     'no-useless-computed-key': 'warn',
 
@@ -81,8 +75,8 @@ module.exports = {
     // 强制多行注释的特定样式（不允许连续的行注释而支持块注释。此外，要求块注释*在每行之前有一个对齐的字符）
     'multiline-comment-style': 'error',
 
-    // 在三元表达式的操作数之间禁止换行
-    'multiline-ternary': ["error", "always"],
+    // 在三元表达式的操作数之间保持一致的换行
+    'multiline-ternary': ["error", "always-multiline"],
 
     // 禁止否定条件
     'no-negated-condition': 'error',
