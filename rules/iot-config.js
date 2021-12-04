@@ -24,6 +24,9 @@ module.exports = {
     // 不允许在顶级脚本作用域中声明var并命名function声明
     'no-implicit-globals': 'error',
 
+     // 标记this类或类类对象之外的关键字的用法
+    'no-invalid-this': 'warn',
+
     // 禁止使用new不将结果对象分配给变量的关键字的构造函数调用
     'no-new': 'warn',
 

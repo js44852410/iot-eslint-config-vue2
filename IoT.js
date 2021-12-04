@@ -11,7 +11,7 @@ module.exports = {
     './rules/vue',
     './rules/iot-config'
   ].map(require.resolve),
-   env: { // 环境配置
+  env: { // 环境配置
     es6: true, // 启用ES6的功能
     node: true, // Node.js全局变量和Node.js范围。
     browser: true, // 启用浏览器全局变量。
@@ -28,6 +28,24 @@ module.exports = {
   plugins: [ // 插件
     'import',
   ],
+  settings: { // 自定义规则
+    'import/resolver': {
+      node: {
+        extensions: ['.mjs', '.js', '.json'],
+      },
+    },
+    'import/extensions': [
+      '.js',
+      '.mjs',
+      '.jsx',
+    ],
+    'import/core-modules': [
+    ],
+    'import/ignore': [
+      'node_modules',
+      '\\.(coffee|scss|css|less|hbs|svg|json)$',
+    ],
+  },
   rules: {},
   overrides: [
     {
