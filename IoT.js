@@ -29,16 +29,16 @@ module.exports = {
     'import',
   ],
   settings: { // 自定义规则
+     "import/resolver": {
+      "webpack": {
+      "config": "node_modules/@vue/cli-service/webpack.config.js"
+      }
+    },
     'import/resolver': {
       node: {
         extensions: ['.mjs', '.js', '.json'],
       },
-    },
-    'import/extensions': [
-      '.js',
-      '.mjs',
-      '.jsx',
-    ],
+    },  
     'import/core-modules': [
     ],
     'import/ignore': [
@@ -46,7 +46,12 @@ module.exports = {
       '\\.(coffee|scss|css|less|hbs|svg|json)$',
     ],
   },
-  rules: {},
+  rules: {
+    'import/extensions': ['error', 'always', {
+      'js': 'never',
+      'vue': 'never'
+    }]
+  },
   overrides: [
     {
       files: ['*.vue'],
