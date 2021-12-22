@@ -1,5 +1,16 @@
 module.exports = {
   rules: {
+    // disallow usage of expressions in statement position
+    // 允许短路评估
+    'no-unused-expressions': [
+      'error',
+      {
+        allowShortCircuit: true,
+        allowTernary: true,
+        allowTaggedTemplates: false,
+      },
+    ],
+
     // 禁止对函数参数再赋值
     'no-param-reassign': 'off',
 
